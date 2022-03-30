@@ -1,0 +1,37 @@
+.semaforo{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 200px; 
+    height: 350px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.brillo{
+    box-shadow: 0 0 50px white;
+}
+
+.luz{
+    border-radius: 50%;
+    height: 100px;
+    width: 100%;
+    margin: 5px;
+}
+
+
+.luz-roja{
+     background-color: red;
+}
+.luz-amarillo{
+    background-color: yellow;
+}
+.luz-verde{
+    background-color: green;
+}
+.barra{
+    background-color: black;
+    width: 20px;
+    height: 100px;
+}
